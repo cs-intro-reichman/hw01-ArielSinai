@@ -6,7 +6,7 @@ public class GenThree
 		//define range
 	    int min = Integer.parseInt(args[0]);
 		int max = Integer.parseInt(args[1]);
-		int range = max - min ;
+		int range = max - min;
 		//create and print 3 random number within the range
 		int rand1 = (int)(Math.random() * range) + min;
 		System.out.println(rand1);
